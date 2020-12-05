@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Profile>Reach</Profile>
+  <Platform>DesktopGL</Platform>
+  <Config />
+  <SourceFiles>
+    <File>D:/Documents/PUCMM/Año 2/Cuatrimestre 3/Programacion 1/MK-Project/MortalKombat/Content/background01.png</File>
+    <File>D:/Documents/PUCMM/Año 2/Cuatrimestre 3/Programacion 1/MK-Project/MortalKombat/Content/background02.png</File>
+  </SourceFiles>
+  <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+  </DestFiles>
+</SourceFileCollection>
