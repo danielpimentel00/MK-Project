@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>D:/Documents/PUCMM/Año 2/Cuatrimestre 3/Programacion 1/MortalKombat/Content/background01.png</SourceFile>
-  <SourceTime>2020-10-09T15:50:44.4803795-04:00</SourceTime>
-  <DestFile>D:/Documents/PUCMM/Año 2/Cuatrimestre 3/Programacion 1/MortalKombat/Content/bin/DesktopGL/Content/background01.xnb</DestFile>
-  <DestTime>2020-10-09T16:25:52.7401593-04:00</DestTime>
+  <SourceFile>D:/Documents/PUCMM/Año 2/Cuatrimestre 3/Programacion 1/MK-Project/MortalKombat/Content/background01.png</SourceFile>
+  <SourceTime>2020-12-05T16:55:43.5002104-04:00</SourceTime>
+  <DestFile>D:/Documents/PUCMM/Año 2/Cuatrimestre 3/Programacion 1/MK-Project/MortalKombat/Content/bin/DesktopGL/Content/background01.xnb</DestFile>
+  <DestTime>2020-12-05T17:25:01.9466874-04:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2020-08-10T16:17:54-04:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

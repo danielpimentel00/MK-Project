@@ -8,12 +8,14 @@ namespace MortalKombat
     {
         Texture2D backgroundTexture;
 
-        private GraphicsDeviceManager _graphics;
-        private SpriteBatch _spriteBatch;
+        private GraphicsDeviceManager graphics;
+        private SpriteBatch spriteBatch;
+        private int anchuraConsola;
+        private int alturaConsola;
 
         public Game1()
         {
-            _graphics = new GraphicsDeviceManager(this);
+            graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
             IsMouseVisible = true;
             
@@ -22,17 +24,17 @@ namespace MortalKombat
         protected override void Initialize()
         {
             // TODO: Add your initialization logic here
-            _graphics.PreferredBackBufferWidth = 1920;
-            _graphics.PreferredBackBufferHeight = 1080; 
-            _graphics.IsFullScreen = true;
-            _graphics.ApplyChanges();
+            graphics.PreferredBackBufferWidth = 1920;
+            graphics.PreferredBackBufferHeight = 1080; 
+            graphics.IsFullScreen = true;
+            graphics.ApplyChanges();
             // TODO: use this.Content to load your game content here
             base.Initialize();
         }
 
         protected override void LoadContent()
         {
-            _spriteBatch = new SpriteBatch(GraphicsDevice);
+            spriteBatch = new SpriteBatch(GraphicsDevice);
 
             // TODO: use this.Content to load your game content here
             backgroundTexture = Content.Load<Texture2D>("background02");
@@ -53,9 +55,9 @@ namespace MortalKombat
             GraphicsDevice.Clear(Color.White);
 
             // TODO: Add your drawing code here
-            _spriteBatch.Begin();
-            _spriteBatch.Draw(backgroundTexture, new Rectangle(0, 0, 1920, 1080), Color.White);
-            _spriteBatch.End();
+            spriteBatch.Begin();
+            spriteBatch.Draw(backgroundTexture, new Rectangle(0, 0, 1920, 1080), Color.White);
+            spriteBatch.End();
             base.Draw(gameTime);
         }
     }
