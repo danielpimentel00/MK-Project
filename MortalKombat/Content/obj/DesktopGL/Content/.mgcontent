@@ -8,8 +8,12 @@
     <File>D:/Documents/PUCMM/Año 2/Cuatrimestre 3/Programacion 1/MK-Project/MortalKombat/Content/Sprites/background02.png</File>
     <File>D:/Documents/PUCMM/Año 2/Cuatrimestre 3/Programacion 1/MK-Project/MortalKombat/Content/Sprites/stance_jax.png</File>
     <File>D:/Documents/PUCMM/Año 2/Cuatrimestre 3/Programacion 1/MK-Project/MortalKombat/Content/Sprites/stance_liukang.png</File>
+    <File>D:/Documents/PUCMM/Año 2/Cuatrimestre 3/Programacion 1/MK-Project/MortalKombat/Content/Sprites/walking_b_jax.png</File>
+    <File>D:/Documents/PUCMM/Año 2/Cuatrimestre 3/Programacion 1/MK-Project/MortalKombat/Content/Sprites/walking_f_jax.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
