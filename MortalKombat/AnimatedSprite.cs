@@ -8,18 +8,20 @@ namespace MortalKombat
 {
     class AnimatedSprite
     {
-        public Texture2D Texture { get; set; }
+        public Texture2D jax { get; set; }
+        public Texture2D liukang { get; set; }
         public int Rows { get; set; }
         public int Columns { get; set; }
         private int currentFrame;
         private int totalFrames;
         private int currentUpdate;
         private int updatePerFrame = 5;
-        
+
+        private SpriteEffects flip = SpriteEffects.FlipVertically;
 
         public AnimatedSprite(Texture2D texture, int rows, int columns)
         {
-            Texture = texture;
+            jax = texture;
             Rows = rows;
             Columns = columns;
             currentFrame = 0;
@@ -43,16 +45,19 @@ namespace MortalKombat
         }
         public void Draw(SpriteBatch spriteBatch, Vector2 location)
         {
-            int width = Texture.Width / Columns;
-            int height = Texture.Height / Rows;
+            int width = jax.Width / Columns;
+            int height = jax.Height / Rows;
             int row = (int)((float)currentFrame / (float)Columns);
             int column = currentFrame % Columns;
 
             Rectangle sourceRectangle = new Rectangle(width * column, height * row, width, height);
-            Rectangle destinationRectangle = new Rectangle((int)location.X, (int)location.Y, width, height);
+            Rectangle destinationRectangle = new Rectangle((int)location.X, (int)location.Y, width *2, height *2);
 
             spriteBatch.Begin();
-            spriteBatch.Draw(Texture, destinationRectangle, sourceRectangle, Color.White);
+            spriteBatch.Draw(jax, destinationRectangle, sourceRectangle, Color.White);
+
+            //spriteBatch.Draw(Texture, destinationRectangle, sourceRectangle, Color.White, 3.1f, new Vector2(0,0), flip, 0f);
+
             spriteBatch.End();
         }
     }

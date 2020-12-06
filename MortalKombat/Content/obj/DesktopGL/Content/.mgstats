@@ -1,7 +1,1 @@
 Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
-<<<<<<< HEAD
-"D:/Documents/PUCMM/Año 2/Cuatrimestre 3/Programacion 1/MK-Project/MortalKombat/Content/Sprites/background01.png","D:/Documents/PUCMM/Año 2/Cuatrimestre 3/Programacion 1/MK-Project/MortalKombat/Content/bin/DesktopGL/Content/Sprites/background01.xnb","TextureProcessor","Texture2DContent",50428,399825,0.1459623
-"D:/Documents/PUCMM/Año 2/Cuatrimestre 3/Programacion 1/MK-Project/MortalKombat/Content/Sprites/background02.png","D:/Documents/PUCMM/Año 2/Cuatrimestre 3/Programacion 1/MK-Project/MortalKombat/Content/bin/DesktopGL/Content/Sprites/background02.xnb","TextureProcessor","Texture2DContent",2542442,8294485,0.2579538
-=======
-"C:/Users/Diego/source/repos/MK-Project/MortalKombat/Content/background02.png","C:/Users/Diego/source/repos/MK-Project/MortalKombat/Content/bin/DesktopGL/Content/background02.xnb","TextureProcessor","Texture2DContent",2542442,8294485,0.6288265
->>>>>>> 98d7ea51d22df23928a6c10e690e8efaef04e7be

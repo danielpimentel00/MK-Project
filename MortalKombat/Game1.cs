@@ -1,6 +1,7 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+using System;
 
 namespace MortalKombat
 {
@@ -11,9 +12,10 @@ namespace MortalKombat
         private Texture2D background;
         public int anchuraConsola = 1280, alturaConsola = 720;
 
-
         private Texture2D jax;
         private AnimatedSprite fightingStance_jax;
+
+        
 
         public Game1()
         {
@@ -66,11 +68,13 @@ namespace MortalKombat
 
             // TODO: Add your drawing code here
             spriteBatch.Begin();
+
             spriteBatch.Draw(background, new Rectangle(0, 0, anchuraConsola, alturaConsola), Color.White);
 
             spriteBatch.End();
 
-            fightingStance_jax.Draw(spriteBatch, new Vector2(200, 520));
+            fightingStance_jax.Draw(spriteBatch, new Vector2(150, 420));
+
             base.Draw(gameTime);
         }
     }
