@@ -1,3 +1,4 @@
+<<<<<<< HEAD:MortalKombat/Content/obj/DesktopGL/Content/Sprites/background01.mgcontent
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <SourceFile>D:/Documents/PUCMM/Año 2/Cuatrimestre 3/Programacion 1/MK-Project/MortalKombat/Content/Sprites/background01.png</SourceFile>
@@ -39,4 +40,47 @@
   <Dependencies />
   <BuildAsset />
   <BuildOutput />
+=======
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SourceFile>C:/Users/Diego/source/repos/MK-Project/MortalKombat/Content/background01.png</SourceFile>
+  <SourceTime>2020-12-05T16:58:15.6595648-04:00</SourceTime>
+  <DestFile>C:/Users/Diego/source/repos/MK-Project/MortalKombat/Content/bin/DesktopGL/Content/background01.xnb</DestFile>
+  <DestTime>2020-12-06T15:47:39.6846337-04:00</DestTime>
+  <Importer>TextureImporter</Importer>
+  <ImporterTime>2020-08-10T16:17:54-04:00</ImporterTime>
+  <Processor>TextureProcessor</Processor>
+  <ProcessorTime>2020-08-10T16:17:54-04:00</ProcessorTime>
+  <Parameters>
+    <Key>ColorKeyColor</Key>
+    <Value>255,0,255,255</Value>
+  </Parameters>
+  <Parameters>
+    <Key>ColorKeyEnabled</Key>
+    <Value>True</Value>
+  </Parameters>
+  <Parameters>
+    <Key>GenerateMipmaps</Key>
+    <Value>False</Value>
+  </Parameters>
+  <Parameters>
+    <Key>PremultiplyAlpha</Key>
+    <Value>True</Value>
+  </Parameters>
+  <Parameters>
+    <Key>ResizeToPowerOfTwo</Key>
+    <Value>False</Value>
+  </Parameters>
+  <Parameters>
+    <Key>MakeSquare</Key>
+    <Value>False</Value>
+  </Parameters>
+  <Parameters>
+    <Key>TextureFormat</Key>
+    <Value>Color</Value>
+  </Parameters>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput />
+>>>>>>> 98d7ea51d22df23928a6c10e690e8efaef04e7be:MortalKombat/Content/obj/DesktopGL/Content/background01.mgcontent
 </PipelineBuildEvent>
