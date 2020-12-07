@@ -27,3 +27,5 @@ D:\Documents\PUCMM\Año 2\Cuatrimestre 3\Programacion 1\MK-Project\MortalKombat\
 D:\Documents\PUCMM\Año 2\Cuatrimestre 3\Programacion 1\MK-Project\MortalKombat\bin\Debug\netcoreapp3.1\Content\Sprites\stance_liukang.xnb
 D:\Documents\PUCMM\Año 2\Cuatrimestre 3\Programacion 1\MK-Project\MortalKombat\bin\Debug\netcoreapp3.1\Content\Sprites\walking_b_jax.xnb
 D:\Documents\PUCMM\Año 2\Cuatrimestre 3\Programacion 1\MK-Project\MortalKombat\bin\Debug\netcoreapp3.1\Content\Sprites\walking_f_jax.xnb
+D:\Documents\PUCMM\Año 2\Cuatrimestre 3\Programacion 1\MK-Project\MortalKombat\bin\Debug\netcoreapp3.1\Content\Sprites\punch_jax.xnb
+D:\Documents\PUCMM\Año 2\Cuatrimestre 3\Programacion 1\MK-Project\MortalKombat\bin\Debug\netcoreapp3.1\Content\Sprites\punching_jax.xnb
