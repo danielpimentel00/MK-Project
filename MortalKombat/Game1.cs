@@ -98,8 +98,7 @@ namespace MortalKombat
 
             if (player_position.X > graphics.PreferredBackBufferWidth - walking_f_jax.Width / 2)
                 player_position.X = graphics.PreferredBackBufferWidth - walking_f_jax.Width / 2;
-
-           else if (player_position.X < 0)
+            else if (player_position.X < 0)
                 player_position.X = 0;
 
             fightingStance_jax.Update();
