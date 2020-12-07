@@ -23,6 +23,8 @@ namespace MortalKombat
         private float player_speed;
         private Texture2D punch_jax;
         private AnimatedSprite fightingPunch_jax;
+        private Texture2D kick_jax;
+        private AnimatedSprite fightingKick_jax;
 
         //segundo jugador
         private Texture2D stance_liukang;
@@ -73,6 +75,9 @@ namespace MortalKombat
             punch_jax = Content.Load<Texture2D>(@"Sprites/punching_jax");
             fightingPunch_jax = new AnimatedSprite(punch_jax, 2, 4);
 
+            kick_jax = Content.Load<Texture2D>(@"Sprites/kicking_jax");
+            fightingKick_jax = new AnimatedSprite(kick_jax, 2, 4);
+
             //liukang
             stance_liukang = Content.Load<Texture2D>(@"Sprites/stance_liukang");
             fightingStance_liukang = new AnimatedSprite(stance_liukang, 4, 4);
@@ -103,6 +108,11 @@ namespace MortalKombat
             if (PlayerOneKeyState.IsKeyDown(Keys.A))
             {
                 fightingPunch_jax.Update();
+            }
+
+            if (PlayerOneKeyState.IsKeyDown(Keys.S))
+            {
+                fightingKick_jax.Update();
             }
 
 
@@ -141,6 +151,8 @@ namespace MortalKombat
             }
             else if (PlayerOneKeyState.IsKeyDown(Keys.A))
                 fightingPunch_jax.Draw(spriteBatch, player_position);
+            else if (PlayerOneKeyState.IsKeyDown(Keys.S))
+                fightingKick_jax.Draw(spriteBatch, player_position);
             else
                 fightingStance_jax.Draw(spriteBatch, player_position);
 
